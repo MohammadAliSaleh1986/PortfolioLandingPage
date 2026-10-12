@@ -8,6 +8,9 @@
   --color-canvas: #f1eee6;
   --color-ink: #252820;
   --color-accent: #c45838;
+  --color-gold: #d9a13b;
+  --color-sage: #c9d2c2;
+  --color-blue: #aebddc;
 }
 
 @layer base {
@@ -21,6 +24,10 @@
     color: var(--color-ink);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+  }
+
+  #root {
+    min-height: 100vh;
   }
 
   a {
